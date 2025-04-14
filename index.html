@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Goat Game</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Goat Game</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="game-area">
-        <div class="road">
-            <div class="goat" id="goat">
-                <img src="img/goat.png" alt="">
-            </div>
-            <div class="object leaf" id="leaf">
-                <img src="img/leaf.png" alt="">
-            </div>
-            <div class="object bike" id="bike">
-                <img src="img/bike.png"">
-            </div>
-        </div>
+  <div class="game-area">
+    <div class="road">
+      <div class="goat" id="goat">
+        <img src="img/goat.png" alt="Goat" />
+      </div>
+      <div class="object leaf" id="leaf">
+        <img src="img/leaf.png" alt="Leaf" />
+      </div>
+      <div class="object bike" id="bike">
+        <img src="img/bike.png" alt="Bike" />
+      </div>
     </div>
-    <div class="score">Score: <span id="score">0</span></div>
-    <script src="script.js"></script>
+  </div>
+
+  <div class="controls">
+    <button id="leftBtn">⯇</button>
+    <button id="rightBtn">⯈</button>
+  </div>
+
+  <div class="score">Score: <span id="score">0</span></div>
+  <script src="script.js"></script>
 </body>
 </html>
