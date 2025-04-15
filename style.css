@@ -18,7 +18,7 @@
     position: relative;
     width: 90%;
     max-width: 320px;
-    height: 600px;
+    height: 500px;
     border: 5px solid #333;
     overflow: hidden;
     background-color: #222;
@@ -54,8 +54,8 @@
   }
   
   .object img {
-    width: 100%;
-    height: auto;
+    width: 80%;
+    height: 80%;
   }
   
   .leaf,
@@ -66,10 +66,10 @@
   
   .score {
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 10px;
     color: white;
     background-color: #333;
-    padding: 5px 15px;
+    padding: 5px 15px;  
     border-radius: 10px;
   }
   
